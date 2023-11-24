@@ -45,7 +45,6 @@ export default function HomeSearch() {
           Google Search
         </button>
         <button
-          disabled={randomSearchLoading}
           onClick={randomSearch}
           className="btn flex items-center justify-center disabled:opacity-80"
         >
